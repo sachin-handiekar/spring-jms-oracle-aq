@@ -19,9 +19,9 @@
 
 
 	<bean id="dataSource" class="oracle.jdbc.pool.OracleConnectionPoolDataSource">
-		<property name="URL" value="jdbc:oracle:thin:@localhost:1521:xe" />
-		<property name="user" value="admin" />
-		<property name="password" value="sachin21" />
+		<property name="URL" value="jdbc:oracle:thin:@[host]:[port]:[sid]" />
+		<property name="user" value="[username]" />
+		<property name="password" value="[password]" />
 	</bean>
 
 
